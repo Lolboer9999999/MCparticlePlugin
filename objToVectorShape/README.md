@@ -3,4 +3,7 @@ I uploaded the compiled version for windows, objToVectorShape.exe, but for peopl
 To do this download the objToVectorShape.c and place it in a map somewhere.<br />
 Then you need to open a commandprompt and navigate to the directory you saved the file in using "cd yourDirectory".
 Then you can use gcc or a similar compiler to compile the code.<br />
-The command when using gcc is `gcc objToVectorShape.c -o objToVectorShape.exe -lcomdlg32 -lgdi32`
+The command when using gcc is 
+```C
+gcc objToVectorShape.c -o objToVectorShape.exe -lcomdlg32 -lgdi32
+```
